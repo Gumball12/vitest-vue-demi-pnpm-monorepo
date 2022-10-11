@@ -1,0 +1,25 @@
+{
+  "baseBranch": "origin/main",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "dev": {
+      "cache": false
+    },
+
+    "test-v2": {
+      "dependsOn": ["build"],
+      "cache": false
+    },
+    "test-v3": {
+      "dependsOn": ["build"],
+      "cache": false
+    },
+
+    "release": {
+      "cache": false
+    }
+  }
+}

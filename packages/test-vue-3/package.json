@@ -1,0 +1,17 @@
+{
+  "name": "test-vue-3",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test-v3": "vitest run"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vue/test-utils": "^2.1.0",
+    "happy-dom": "^7.5.6",
+    "my-component": "workspace:*",
+    "tsconfig": "workspace:*",
+    "vue": "^3.2.41"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "test-vue-2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test-v2": "vitest run"
+  },
+  "devDependencies": {
+    "@vue/composition-api": "^1.7.1",
+    "@vue/test-utils": "^1.3.0",
+    "jsdom": "^20.0.1",
+    "my-component": "workspace:*",
+    "tsconfig": "workspace:*",
+    "vite-plugin-vue2": "^2.0.2",
+    "vue": "2.6.14"
+  }
+}
