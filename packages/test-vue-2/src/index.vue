@@ -7,8 +7,10 @@ import { MyComponent } from 'my-component';
 import { defineComponent } from '@vue/composition-api';
 
 export default defineComponent({
-  // `TS(2769): No overload matches this call.` error occurs, but it is not an actual error situation.
-  // For more information, see README.
+  // NOTE
+  // : This type error occurs because the 'vue-demi' package points to Vue 3.
+  // However, it doesn't matter because when you use the 'test-v2' command,
+  // 'vue-demi-switch' changes the pointing Vue version to 2.
   components: { MyComponent },
 });
 </script>
