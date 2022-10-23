@@ -45,9 +45,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.2",
-    "standard-version": "^9.5.0",
     "tsconfig": "workspace:*",
-    "tsup": "^6.2.3",
     "vite-plugin-dts": "^1.6.6",
     "vue": "^3.2.41",
     "vue2": "npm:vue@2.6.14"
