@@ -1,5 +1,5 @@
 <template>
-  <div><MyComponent /></div>
+  <div><MyComponent /><MyPluginComponent /></div>
 </template>
 
 <script lang="ts" setup>
