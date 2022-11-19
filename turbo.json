@@ -16,10 +16,6 @@
     "test-v3": {
       "dependsOn": ["build"],
       "cache": false
-    },
-
-    "release": {
-      "cache": false
     }
   }
 }

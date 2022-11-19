@@ -7,7 +7,6 @@
     "build": "turbo run build",
     "test-v2": "turbo run test-v2",
     "test-v3": "turbo run test-v3",
-    "release": "turbo run release",
     "dev": "turbo run dev",
     "lint": "eslint ./**/*.ts",
     "prepare": "husky install"
