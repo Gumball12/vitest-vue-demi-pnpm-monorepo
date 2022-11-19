@@ -31,8 +31,8 @@
   },
   "scripts": {
     "build": "vite build",
-    "test-v2": "npx vue-demi-switch 2 vue2",
-    "test-v3": "npx vue-demi-switch 3"
+    "test-v2": "vue-demi-switch 2 vue2",
+    "test-v3": "vue-demi-switch 3"
   },
   "peerDependencies": {
     "@vue/composition-api": "^1.0.0-rc.1",
